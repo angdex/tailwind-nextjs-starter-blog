@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js 启动博客',
-  author: 'Tails Azimuth',
-  headerTitle: 'Tailwind博客',
+  title: 'blog',
+  author: 'Zyben',
+  headerTitle: 'Zyben 博客',
   description: '一个使用 Next.js 和 Tailwind.css 创建的博客',
   language: 'zh-CN',
   theme: 'system', // 可选值：system、dark、light
@@ -22,7 +22,7 @@ const siteMetadata = {
   medium: 'https://medium.com',
   bluesky: 'https://bsky.app/',
   locale: 'zh-CN',
-  stickyNav: false, // 如果想固定导航栏设置为 true
+  stickyNav: true, // 如果想固定导航栏设置为 true
   analytics: {
     umamiAnalytics: {
       umamiWebsiteId: process.env.NEXT_UMAMI_ID,
